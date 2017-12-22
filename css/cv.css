@@ -55,6 +55,7 @@ h1 {
   margin-top: 15px;
   border: solid black 1px;
   color : black;
+  line-height: 100%;
 }
 .btncontact:hover {
   background-color: #b3c3e5;
@@ -66,6 +67,7 @@ h1 {
   float: right;
   border : black 1px solid;
   color : black;
+  line-height: 100%;
 }
 .btnlng:hover {
   background-color:#eac5c5;
