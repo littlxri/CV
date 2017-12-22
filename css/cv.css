@@ -1,0 +1,152 @@
+/*déclaration des polices*/
+
+@font-face {
+  font-family: 'robotothin';
+  src: url('fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+}
+
+
+
+body {
+  margin:0;
+  padding: 0;
+  font-family: "robotothin";
+  font-size: 20px;
+}
+h2 {
+  font-size: 40px;
+}
+h4 {
+  font-weight: bold;
+}
+
+
+/* header */
+.header {
+  background-color: #a37676;
+  height: 300px;
+  line-height: 70px;
+}
+
+.blanc {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 0.9em;
+  color : black;
+}
+
+a:hover {
+  color: #a37676;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 80px;
+}
+
+.btncontact {
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  border: solid black 1px;
+  color : black;
+}
+.btncontact:hover {
+  background-color: #b3c3e5;
+}
+
+.btnlng {
+  margin-right: 25px;
+  margin-top: 15px;
+  float: right;
+  border : black 1px solid;
+  color : black;
+}
+.btnlng:hover {
+  background-color:#eac5c5;
+}
+/* fin header */
+
+
+
+/* debut barre nav */
+.navmenu {
+  background-color: #d9c89e;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  margin-bottom: 50px;
+}
+
+.menu {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+ /* fin barre nav */
+
+.logo {
+  margin:0;
+  color: #ffffff;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+}
+
+/* accueill */
+.accueill {
+  padding-top: 100px;
+}
+
+/* hobbies */
+.hobbies {
+  padding-top: 70px;
+
+}
+/* fin hobbies */
+
+/* etudes */
+.studies{
+  padding-top: 50px;
+}
+/* fin etudes */
+
+/* langues parlées */
+.nivlang {
+  width: 30%;
+  padding-left: -15px;
+}
+
+/*fin lngues parlées*/
+
+/* Début diplomes */
+.diplomes {
+  padding-top: 50px;
+}
+/* Fin diplomes */
+
+/* Début exp pro */
+.experience {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* fin exp pro */
+
+/* footer */
+.footer {
+  height: 50px;
+  background-color: #a37676;
+  text-align: center;
+}
+.ptitmot {
+  padding-top: 10px;
+  height: 30px;
+}
+#mailto:hover {
+  color: #d9c89e;
+}

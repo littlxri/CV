@@ -1,0 +1,149 @@
+/*déclaration des polices*/
+
+@font-face {
+  font-family: 'robotothin';
+  src: url('fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+}
+
+
+
+body {
+  margin:0;
+  padding: 0;
+  font-family: "robotothin";
+  font-size: 20px;
+}
+h2 {
+  font-size: 40px;
+}
+h4 {
+  font-weight: bold;
+}
+
+
+/* header */
+.header {
+  background-color: #a37676;
+  height: 300px;
+  line-height: 70px;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 0.9em;
+  color : black;
+}
+
+a:hover {
+  color: #a37676;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 70px;
+}
+
+.btncontact {
+  margin-right: 5px;
+  margin-top: 5px;
+  border: solid black 1px;
+  color : black;
+  height: 20%;
+  width: 40%;
+}
+.btncontact:hover {
+  background-color: #b3c3e5;
+}
+
+.btnlng {
+  margin-top: 5px;
+  float: left;
+  border : black 1px solid;
+  color : black;
+  height: 20%;
+  width: 40%;
+}
+.btnlng:hover {
+  background-color:#eac5c5;
+}
+/* fin header */
+
+
+
+/* debut barre nav */
+.navmenu {
+  background-color: #d9c89e;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+}
+
+.menu {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+ /* fin barre nav */
+
+.logo {
+  margin:0;
+  color: #ffffff;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+}
+
+/* accueill */
+.accueill {
+  padding-top: 100px;
+}
+
+/* hobbies */
+.hobbies {
+  padding-top: 70px;
+
+}
+/* fin hobbies */
+
+/* etudes */
+.studies{
+  padding-top: 50px;
+}
+/* fin etudes */
+
+/* langues parlées */
+.nivlang {
+  width: 30%;
+  padding-left: -15px;
+}
+
+/*fin lngues parlées*/
+
+/* Début diplomes */
+.diplomes {
+  padding-top: 50px;
+}
+/* Fin diplomes */
+
+/* Début exp pro */
+.experience {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* fin exp pro */
+
+/* footer */
+.footer {
+  height: 80px;
+  background-color: #a37676;
+  text-align: center;
+}
+.ptitmot {
+  padding-top: 10px;
+  height: 30px;
+}
+#mailto:hover {
+  color: #d9c89e;
+}
